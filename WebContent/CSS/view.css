@@ -1,0 +1,157 @@
+@charset "ISO-8859-1";
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.border {
+	margin: 50px auto;
+	width: 98%;
+	height: 700px;
+}
+
+.border h3{
+	padding-left: 30px;
+}
+
+.product-display-border {
+	width: 40%;
+	height: 100px;
+	background: rgba(192,192,201,100);
+	display:flex;
+	border: none;
+	margin-top:30px;
+	margin-left: 15px;
+}
+
+.remove_button {
+	display: inline;
+	width: 100px;
+}
+
+img {
+	height: 80px;
+	padding-top: 10px;
+	padding-left: 10px;	
+}
+
+p {
+	padding-left:10px;
+	padding-top: 10px;
+}
+
+.product{
+	display: flex;
+	
+}
+
+.product a {
+	color: red;
+	text-decoration: none;
+	margin-top: 28px;
+	margin-left: 15px;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px 15px;
+    box-shadow: 0 5px 15px rgba(255,255,255, 0.25);/*reduce box shadow */
+    height: 17vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.logo{
+    width: 260px;
+    height: 118px;    
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0px 20px;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #f5f5f5;       
+}
+#navbar li a:hover{
+    text-decoration: underline;
+}
+#navbar li a:active{
+    opacity: 0.5;
+}
+.searchbar{
+    width: 380px;
+    height: 42px;
+    border-radius: 10px;
+    border-color: #f5f5f5;
+    background-color: black;
+    color: #f5f5f5;
+    font-size: 18px;
+    padding: 0 12px;
+}
+#navbar li a:hover{
+    text-decoration: underline;
+}
+
+::placeholder{
+    font-size: 18px;
+    font-weight: 100px;
+    color: #f5f5f5;
+    padding-left: 1px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    margin-top: 0.5px;
+    margin-top: 1px;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;   
+}
+footer .col a{
+    color: #f5f5f5;
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+footer .col h4{
+    color: #f5f5f5;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+footer .col p{
+    color: #f5f5f5;
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+footer .copyright {
+    width: 100%;
+    text-align:center;
+}
+footer .copyright p{
+  color: #f5f5f5;
+}
+
+footer .col img{
+    width: 260px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+.section-p1{
+    padding: 40px 80px;
+} 

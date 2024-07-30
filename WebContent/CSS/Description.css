@@ -1,0 +1,200 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.middle-section {
+    display: flex;
+    margin-left: 70px;
+    align-items: center;
+}
+
+.middle-section img {
+    width: 650px;
+    height: 450px;
+}
+
+.right-section {
+    min-width: 700px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    padding-top: 15px;
+}
+.headers {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top:0;
+    left: 0;
+    right: 0;
+    /*saving the background color else header becomes transparent*/
+    background-color: white;
+    border-bottom: 1px solid rgb(228,228,228);
+}
+
+.description-border {
+    border-radius: 15px;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    
+}
+
+.decrease-button, .increase-button {
+    width: 35px;
+    height: 35px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 5px 0 5px;
+    border: none;
+}
+
+.right-section span {
+    font-size: 20px;
+}
+
+.addToCart {
+    width: 260px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.description-border button {
+    cursor: pointer;
+}
+
+.description-border strong {
+    font-size: 25px;
+}
+
+.in_stock {
+    font-size: 15px;
+    color: green;
+}
+
+p {
+    margin-top: 20px;
+}
+
+/*Below is the provided CSS for navbar and footer*/
+
+/* Header Start*/
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px 15px;
+    box-shadow: 0 5px 15px rgba(255,255,255, 0.4);
+    height: 17vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.logo{
+    width: 260px;
+    height: 118px;    
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0px 20px;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #f5f5f5;       
+}
+#navbar li a:hover{
+    text-decoration: underline;
+}
+#navbar li a:active{
+    opacity: 0.5;
+}
+.searchbar{
+    width: 480px;
+    height: 42px;
+    border-radius: 10px;
+    border-color: #f5f5f5;
+    background-color: black;
+    color: #f5f5f5;
+    font-size: 18px;
+    padding: 0 12px;
+}
+#navbar li a:hover{
+    text-decoration: underline;
+}
+
+::placeholder{
+    font-size: 18px;
+    font-weight: 100px;
+    color: #f5f5f5;
+    padding-left: 1px;
+}
+/*footer start*/
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    margin-top: 0.5px;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;   
+}
+footer .col a{
+    color: #f5f5f5;
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+footer .col h4{
+    color: #f5f5f5;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+footer .col p{
+    color: #f5f5f5;
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+footer .copyright {
+    width: 100%;
+    text-align:center;
+}
+footer .copyright p{
+  color: #f5f5f5;
+}
+
+footer .col img{
+    width: 260px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+.section-p1{
+    padding: 40px 80px;
+} 

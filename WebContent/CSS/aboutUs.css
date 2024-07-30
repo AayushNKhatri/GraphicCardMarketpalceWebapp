@@ -1,0 +1,238 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    font-family: "Josefin Sans", sans-serif;
+    color: black;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px 15px;
+    box-shadow: 0 5px 15px rgba(255,255,255, 0.25);/*reduce box shadow */
+    height: 17vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.logo{
+    width: 260px;
+    height: 118px;    
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0px 20px;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #f5f5f5;       
+}
+#navbar li a:hover{
+    text-decoration: underline;
+}
+#navbar li a:active{
+    opacity: 0.5;
+}
+.searchbar{
+    width: 380px;
+    height: 42px;
+    border-radius: 10px;
+    border-color: #f5f5f5;
+    background-color: black;
+    color: #f5f5f5;
+    font-size: 18px;
+    padding: 0 12px;
+}
+#navbar li a:hover{
+    text-decoration: underline;
+}
+
+::placeholder{
+    font-size: 18px;
+    font-weight: 100px;
+    color: #f5f5f5;
+    padding-left: 1px;
+}
+
+/*.wrapper h1{
+    font-family: "Allura", cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: black;
+}
+
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.team .team_member{
+    background: white;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: black;
+    position: relative;
+}
+.team .team_member h3{
+    color: black;
+    font-size: 26px;
+    margin-top: 190px;
+    margin-bottom: 0;
+}
+
+.team .team_member p.role{
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+.team .team_member .team_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);  
+}
+
+.team .team_member .team_img img{
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+}*/
+
+#main {
+    border: 1px solid black;
+    width: 100%;
+    height: 50vh;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+}
+
+.head p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.image-division {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top:0;
+    left: 0;
+    right: 0;
+    /*saving the background color else header becomes transparent*/
+    background-color: white;
+    margin-top: 20px;
+}
+
+
+
+.left-section {
+    display: inline-block;
+}
+
+.left-section p, .left-section h3{
+    margin-left: 15px;
+}
+
+.left-section img {
+    padding-left: 15px;
+}
+
+.middle-section {
+    display: inline-block;
+}
+
+.right-section {
+    display: inline-block;
+}
+
+.right-section img {
+    margin-right: 15px;
+}
+
+.left-section1 {
+    margin-left: 350px;
+}
+
+.middle-section1 {
+    margin-right: 350px;
+}
+
+/*Footer Below*/
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    margin-top: 0.5px;
+    margin-top: 109px;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;   
+}
+footer .col a{
+    color: #f5f5f5;
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+footer .col h4{
+    color: #f5f5f5;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+footer .col p{
+    color: #f5f5f5;
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+footer .copyright {
+    width: 100%;
+    text-align:center;
+}
+footer .copyright p{
+  color: #f5f5f5;
+}
+
+footer .col img{
+    width: 260px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+.section-p1{
+    padding: 40px 80px;
+} 
